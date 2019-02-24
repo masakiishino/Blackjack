@@ -272,9 +272,9 @@ BOOL input(void)
 
 void printA(BOOL isPlayer, ST_Card* phand, unsigned int drawCount)
 {
-    char playerOrDealer[15];
-    char player[15] = "プレイヤー";
-    char dealer[15] = "ディーラー";
+    char playerOrDealer[16];
+    char player[16] = "プレイヤー";
+    char dealer[16] = "ディーラー";
 
     if (isPlayer){
         strcpy(playerOrDealer,player);
