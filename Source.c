@@ -30,58 +30,58 @@ static unsigned int s_playerDrawCount = 0;
 
 const static ST_Card s_cardsTbl[] =
 {
-    { 0 , 11, "スペード\0" },
-    { 1 , 2,  "スペード\0" },
-    { 2 , 3,  "スペード\0" },
-    { 3 , 4,  "スペード\0" },
-    { 4 , 5,  "スペード\0" },
-    { 5 , 6,  "スペード\0" },
-    { 6 , 7,  "スペード\0" },
-    { 7 , 8,  "スペード\0" },
-    { 8 , 9,  "スペード\0" },
-    { 9 , 10, "スペード\0" },
-    { 10, 10, "スペード\0" },
-    { 11, 10, "スペード\0" },
-    { 12, 10, "スペード\0" },
-    { 13, 11, "ハート\0"   },
-    { 14, 2,  "ハート\0"   },
-    { 15, 3,  "ハート\0"   },
-    { 16, 4,  "ハート\0"   },
-    { 17, 5,  "ハート\0"   },
-    { 18, 6,  "ハート\0"   },
-    { 19, 7,  "ハート\0"   },
-    { 20, 8,  "ハート\0"   },
-    { 21, 9,  "ハート\0"   },
-    { 22, 10, "ハート\0"   },
-    { 23, 10, "ハート\0"   },
-    { 24, 10, "ハート\0"   },
-    { 25, 10, "ハート\0"   },
-    { 26, 11, "ダイヤ\0"   },
-    { 27, 2,  "ダイヤ\0"   },
-    { 28, 3,  "ダイヤ\0"   },
-    { 29, 4,  "ダイヤ\0"   },
-    { 30, 5,  "ダイヤ\0"   },
-    { 31, 6,  "ダイヤ\0"   },
-    { 32, 7,  "ダイヤ\0"   },
-    { 33, 8,  "ダイヤ\0"   },
-    { 34, 9,  "ダイヤ\0"   },
-    { 35, 10, "ダイヤ\0"   },
-    { 36, 10, "ダイヤ\0"   },
-    { 37, 10, "ダイヤ\0"   },
-    { 38, 10, "ダイヤ\0"   },
-    { 39, 11, "クラブ\0"   },
-    { 40, 2,  "クラブ\0"   },
-    { 41, 3,  "クラブ\0"   },
-    { 42, 4,  "クラブ\0"   },
-    { 43, 5,  "クラブ\0"   },
-    { 44, 6,  "クラブ\0"   },
-    { 45, 7,  "クラブ\0"   },
-    { 46, 8,  "クラブ\0"   },
-    { 47, 9,  "クラブ\0"   },
-    { 48, 10, "クラブ\0"   },
-    { 49, 10, "クラブ\0"   },
-    { 50, 10, "クラブ\0"   },
-    { 51, 10, "クラブ\0"   }
+    { 0 , 11, "スペード" },
+    { 1 , 2,  "スペード" },
+    { 2 , 3,  "スペード" },
+    { 3 , 4,  "スペード" },
+    { 4 , 5,  "スペード" },
+    { 5 , 6,  "スペード" },
+    { 6 , 7,  "スペード" },
+    { 7 , 8,  "スペード" },
+    { 8 , 9,  "スペード" },
+    { 9 , 10, "スペード" },
+    { 10, 10, "スペード" },
+    { 11, 10, "スペード" },
+    { 12, 10, "スペード" },
+    { 13, 11, "ハート"   },
+    { 14, 2,  "ハート"   },
+    { 15, 3,  "ハート"   },
+    { 16, 4,  "ハート"   },
+    { 17, 5,  "ハート"   },
+    { 18, 6,  "ハート"   },
+    { 19, 7,  "ハート"   },
+    { 20, 8,  "ハート"   },
+    { 21, 9,  "ハート"   },
+    { 22, 10, "ハート"   },
+    { 23, 10, "ハート"   },
+    { 24, 10, "ハート"   },
+    { 25, 10, "ハート"   },
+    { 26, 11, "ダイヤ"   },
+    { 27, 2,  "ダイヤ"   },
+    { 28, 3,  "ダイヤ"   },
+    { 29, 4,  "ダイヤ"   },
+    { 30, 5,  "ダイヤ"   },
+    { 31, 6,  "ダイヤ"   },
+    { 32, 7,  "ダイヤ"   },
+    { 33, 8,  "ダイヤ"   },
+    { 34, 9,  "ダイヤ"   },
+    { 35, 10, "ダイヤ"   },
+    { 36, 10, "ダイヤ"   },
+    { 37, 10, "ダイヤ"   },
+    { 38, 10, "ダイヤ"   },
+    { 39, 11, "クラブ"   },
+    { 40, 2,  "クラブ"   },
+    { 41, 3,  "クラブ"   },
+    { 42, 4,  "クラブ"   },
+    { 43, 5,  "クラブ"   },
+    { 44, 6,  "クラブ"   },
+    { 45, 7,  "クラブ"   },
+    { 46, 8,  "クラブ"   },
+    { 47, 9,  "クラブ"   },
+    { 48, 10, "クラブ"   },
+    { 49, 10, "クラブ"   },
+    { 50, 10, "クラブ"   },
+    { 51, 10, "クラブ"   }
 };
 
 #define DEALER (0)
@@ -102,6 +102,30 @@ const static ST_Card s_cardsTbl[] =
 //#define LOGIC_TEST_2
 //#define LOGIC_TEST_3
 //#define LOGIC_TEST_4
+
+#ifdef LOGIC_TEST_1
+#define DBG_PRINT1(...) printf("LOGIC_TEST_1 [%d/10] OK!!!\n",__VA_ARGS__);
+#else
+#define DBG_PRINT1(...)
+#endif
+
+#ifdef LOGIC_TEST_2
+#define DBG_PRINT2(...) printf("LOGIC_TEST_2 [%d/5] OK!!!\n",__VA_ARGS__);
+#else
+#define DBG_PRINT2(...)
+#endif
+
+#ifdef LOGIC_TEST_3
+#define DBG_PRINT3(...) printf("LOGIC_TEST_3 [%d/2] OK!!!\n",__VA_ARGS__);
+#else
+#define DBG_PRINT3(...)
+#endif
+
+#ifdef LOGIC_TEST_4
+#define DBG_PRINT4(...) printf("LOGIC_TEST_4 [%d/3] OK!!!\n",__VA_ARGS__);
+#else
+#define DBG_PRINT4(...)
+#endif
 
 void shuffleDeck(unsigned int* pDeck);
 void drawCard(unsigned int* pDeck, ST_Card* pHand, unsigned int* pDrawCount, unsigned int* pPoint,unsigned int* pAceCount);
@@ -281,67 +305,42 @@ int main(void)
 
     if (s_playerPoint == TARGET_NUMBER) {
         /* do nothing */
-        #ifdef LOGIC_TEST_3
-        printf("LOGIC_TEST_3 [1/2] OK!!!\n");
-        #endif
+        DBG_PRINT3(1);
     } else {
-        #ifdef LOGIC_TEST_1
-        printf("LOGIC_TEST_1 [1/10] OK!!!\n");
-        #endif
-
+        DBG_PRINT1(1);
         if (s_playerAceCount == 2) {
             s_playerAceCount --;
             s_playerPoint = s_playerPoint - DIFFERENCE_ACE_POINT;
-            #ifdef LOGIC_TEST_1
-            printf("LOGIC_TEST_1 [2/10] OK!!!\n");
-            #endif
+            DBG_PRINT1(2);
         }
-        #ifdef LOGIC_TEST_2
-        printf("LOGIC_TEST_2 [1/5] OK!!!\n");
-        #endif
+        DBG_PRINT2(1);
 
         while(1){
             printf("プレイヤー合計 : %d\n", s_playerPoint);
             if (isInput()) {
                 drawCard(deck, playerHand, &s_playerDrawCount, &s_playerPoint, &s_playerAceCount);
                 printA(PLAYER, playerHand, s_playerDrawCount);
-                #ifdef LOGIC_TEST_1
-                printf("LOGIC_TEST_1 [3/10] OK!!!\n");
-                #endif
+                DBG_PRINT1(3);
                 if (s_playerPoint == TARGET_NUMBER) {
-                    #ifdef LOGIC_TEST_2
-                    printf("LOGIC_TEST_2 [4/5] OK!!!\n");
-                    #endif
+                    DBG_PRINT2(4);
                     break;
                 } else {
-                    #ifdef LOGIC_TEST_1
-                    printf("LOGIC_TEST_1 [4/10] OK!!!\n");
-                    #endif
+                    DBG_PRINT1(4);
                     if (s_playerPoint > TARGET_NUMBER) {
-                        #ifdef LOGIC_TEST_2
-                        printf("LOGIC_TEST_2 [2/5] OK!!!\n");
-                        #endif
+                        DBG_PRINT2(2);
                         if (s_playerAceCount == 0) {
-                            #ifdef LOGIC_TEST_4
-                            printf("LOGIC_TEST_4 [1/3] OK!!!\n");
-                            #endif
+                            DBG_PRINT4(1);
                             break;
                         } else {
                             s_playerAceCount --;
                             s_playerPoint = s_playerPoint - DIFFERENCE_ACE_POINT;
-                            #ifdef LOGIC_TEST_2
-                            printf("LOGIC_TEST_2 [3/5] OK!!!\n");
-                            #endif
+                            DBG_PRINT2(3);
                         }
                     }
-                    #ifdef LOGIC_TEST_1
-                    printf("LOGIC_TEST_1 [5/10] OK!!!\n");
-                    #endif
+                    DBG_PRINT1(5);
                 }
             } else {
-                #ifdef LOGIC_TEST_1
-                printf("LOGIC_TEST_1 [6/10] OK!!!\n");
-                #endif
+                DBG_PRINT1(6);
                 break;
             }
         }
@@ -350,45 +349,29 @@ int main(void)
     if (s_dealerAceCount == 2) {
         s_dealerAceCount --;
         s_dealerPoint = s_dealerPoint - DIFFERENCE_ACE_POINT;
-        #ifdef LOGIC_TEST_1
-        printf("LOGIC_TEST_1 [7/10] OK!!!\n");
-        #endif
+        DBG_PRINT1(7);
     }
-    #ifdef LOGIC_TEST_2
-    printf("LOGIC_TEST_2 [5/5] OK!!!\n");
-    #endif
+    DBG_PRINT2(5);
 
     while(1){
         if (s_dealerPoint <= DEALER_STAY_SCORE) {
             drawCard(deck, dealerHand, &s_dealerDrawCount, &s_dealerPoint, &s_dealerAceCount);
             printB(dealerHand);
-            #ifdef LOGIC_TEST_1
-            printf("LOGIC_TEST_1 [8/10] OK!!!\n");
-            #endif
+            DBG_PRINT1(8);
             if (s_dealerPoint > TARGET_NUMBER) {
-                #ifdef LOGIC_TEST_4
-                printf("LOGIC_TEST_4 [2/3] OK!!!\n");
-                #endif
+                DBG_PRINT4(2);
                 if (s_dealerAceCount == 0) {
-                    #ifdef LOGIC_TEST_4
-                    printf("LOGIC_TEST_4 [3/3] OK!!!\n");
-                    #endif
+                    DBG_PRINT4(3);
                     break;
                 } else {
                     s_dealerAceCount --;
                     s_dealerPoint = s_dealerPoint - DIFFERENCE_ACE_POINT;
-                    #ifdef LOGIC_TEST_3
-                    printf("LOGIC_TEST_3 [2/2] OK!!!\n");
-                    #endif
+                    DBG_PRINT3(2);
                 }
             }
-            #ifdef LOGIC_TEST_1
-            printf("LOGIC_TEST_1 [9/10] OK!!!\n");
-            #endif
+            DBG_PRINT1(9);
         } else {
-            #ifdef LOGIC_TEST_1
-            printf("LOGIC_TEST_1 [10/10] OK!!!\n");
-            #endif
+            DBG_PRINT1(10);
             break;
         }
     }
@@ -494,8 +477,8 @@ E_BOOL isInput(void)
 void printA(E_BOOL isPlayer, ST_Card* pHand, unsigned int drawCount)
 {
     char playerOrDealer[16]; /* 日本語の文字コードが一文字3Byteなので、五文字+null文字の1Byteで16Byte */
-    char player[16] = "プレイヤー";
-    char dealer[16] = "ディーラー";
+    char player[] = "プレイヤー";
+    char dealer[] = "ディーラー";
 
     #ifdef DEBUG
     printf("isPlayer = %d\n",isPlayer);
